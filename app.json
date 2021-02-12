@@ -1,7 +1,7 @@
 {
 	"name": "Heroku aria2c fork",
 	"description": "Run aria2c on heroku",
-	"repository": "https://github.com/daggergad7/heroku-aria-5-cloud-syncs",
+	"repository": "https://github.com/hex-313/heroku-aria-5-cloud-syncs",
 	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
@@ -18,7 +18,7 @@
 		"RCLONE_DESTINATION": {
 			"description": "Rclone destination path, format \"[drivename A]:[remove path A]",
 			"required": false,
-			"value": "Google:tmp"
+			"value": "Google:Folder"
 		},
 		"RCLONE_DESTINATION_2": {
 			"description": "Rclone destination path, format \"[drivename A]:[remove path A]\"",
